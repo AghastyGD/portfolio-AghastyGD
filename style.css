@@ -301,6 +301,9 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.services .serv-content .card .acor{
+    color: white;
+}
 
 /* skills sections styling */
 .skills {
