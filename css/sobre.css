@@ -142,42 +142,25 @@
 section{
     padding: 100px 0;
 }
-.about{
+.about, .about2, .about3, .services, .skills, .contact, footer{
     font-family: "Poppins", sans-serif;
 }
-.about .about-content{
+.about .about-content,
+.about2 .about2-content2,
+.about3 .about3-content3,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-
-.about2{
-    font-family: "Poppins", sans-serif;
-}
-.about2 .about2-content2{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-.about3{
-    font-family: "Poppins", sans-serif;
-}
-.about3 .about3-content3{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between
-}
-
-
-
 section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
-    font-weight:600;
+    font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: "Ubuntu", sans-serif;
@@ -202,7 +185,7 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-/* PROJETO 001 - SISTEMA DE GESTÃO */
+/* estilizando Projeto 001 */
 .about {
     color: #fff;
     background: #111;
@@ -214,50 +197,38 @@ section .title::after{
     background: #111;
     content: "projeto 001";
 }
-.about .about-content .right{
+.about .about-content .left{
     width: 45%;
 }
-.about .about-content .right img{
-    margin-left: 50px;
-    display: grid;
-    height: 500px;
-    width: 500px;
-    object-fit: fill;
-    border-radius: 12px;
+.about .about-content .left img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 30px;
 }
-.about .about-content .left{
-    margin-bottom: 120px;
+.about .about-content .right{
     width: 55%;
 }
-.about .about-content .left .text{
+.about .about-content .right .text{
     color: white;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about .about-content .left .p1{
+.about .about-content .right p{
     color: white;
-    font-size: 17px;
-    margin-bottom: 6px;
-}
-
-.about .about-content .left .text2{
-    color: white;
-    font-size: 25;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-
-.about .about-content .left .text span{
-    color: crimson;
-}
-.about .about-content .left p{
-    color: white;
+    margin-bottom: 5px;
     text-align: justify;
 }
-.about .about-content .left a{
+.about .about-content .right h2{
+    color: white;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.about .about-content .right .text2{
+    margin-top: 20px;
+}
+.about .about-content .right a{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -270,25 +241,30 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.about .about-content .left a:hover{
+.about .about-content .right a:hover{
     color: crimson;
     background: none;
 }
-.about .about-content .left .a1{
+
+.about .about-content .right .a1{
     display: inline-block;
     background: crimson;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    padding: 12px 19px;
+    padding: 12px 36px;
     margin-top: 20px;
-    margin-right: 89px;
+    margin-right: 40px;
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
+.about .about-content .right .a1:hover{
+    color: crimson;
+    background: none;
+}
 
-/* PROJETO 002 - TIC TAC TOE */
+/* PROJETO 002 */
 .about2 {
     color: #fff;
     background: #111;
@@ -300,43 +276,39 @@ section .title::after{
     background: #111;
     content: "projeto 002";
 }
-.about2 .about2-content2 .right{
+.about2 .about2-content2 .left{
     width: 45%;
 }
-.about2 .about2-content2 .right img{
-    margin-left: 50px;
-    display: grid;
-    height: 500px;
-    width: 500px;
-    object-fit: fill;
-    border-radius: 12px;
+.about2 .about2-content2 .left img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 30px;
 }
-.about2 .about2-content2 .left{
-    margin-bottom: 120px;
+.about2 .about2-content2 .right{
     width: 55%;
 }
-.about2 .about2-content2 .left .text{
+.about2 .about2-content2 .right .text{
     color: white;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about2 .about2-content2 .left .text2{
+.about2 .about2-content2 .right .p1{
     color: white;
-    font-size: 25;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.about2 .about2-content2 .left .text span{
-    color: crimson;
-}
-.about2 .about2-content2 .left p{
-    color: white;
+    margin-bottom: 5px;
     text-align: justify;
-
 }
-.about2 .about2-content2 .left a{
+
+.about2 .about2-content2 .right h2{
+    color: white;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.about2 .about2-content2 .right .text2{
+    margin-top: 20px;
+}
+.about2 .about2-content2 .right .a1{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -349,12 +321,12 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.about2 .about2-content2 .left a:hover{
+.about2 .about2-content2 .right .a1:hover{
     color: crimson;
     background: none;
 }
 
-/* PROJETO 003 - GDPlayer */
+/* PROJETO 003 */
 .about3 {
     color: #fff;
     background: #111;
@@ -366,44 +338,39 @@ section .title::after{
     background: #111;
     content: "projeto 003";
 }
-.about3 .about3-content3 .right{
+.about3 .about3-content3 .left{
     width: 45%;
 }
-.about3 .about3-content3 .right img{
-    margin-left: 10px;
-    margin-bottom: 100px;
-    display: grid;
-    height: 400px;
-    width: 550px;
-    object-fit: fill;
-    border-radius: 12px;
+.about3 .about3-content3 .left img{
+    height: 350px;
+    width: 450px;
+    object-fit:fill;
+    border-radius: 10px;
 }
-.about3 .about3-content3 .left{
-    margin-bottom: 120px;
+.about3 .about3-content3 .right{
     width: 55%;
 }
-.about3 .about3-content3 .left .text{
+.about3 .about3-content3 .right .text{
     color: white;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about3 .about3-content3 .left .text2{
+.about3 .about3-content3 .right .p1{
     color: white;
-    font-size: 25;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.about3 .about3-content3 .left .text span{
-    color: crimson;
-}
-.about3 .about3-content3 .left p{
-    color: white;
+    margin-bottom: 5px;
     text-align: justify;
-
 }
-.about3 .about3-content3 .left a{
+
+.about3 .about3-content3 .right h2{
+    color: white;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.about3 .about3-content3 .right .text2{
+    margin-top: 20px;
+}
+.about3 .about3-content3 .right .a1{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -416,7 +383,7 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.about3 .about3-content3 .left a:hover{
+.about3 .about3-content3 .right .a1:hover{
     color: crimson;
     background: none;
 }
@@ -475,16 +442,19 @@ footer span a:hover{
 }
 
 @media (max-width: 1104px) {
-    .about .about-content .right img{
-        height: 500px;
-        width: 500px;
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
     }
-    .about2 .about2-content2 .right img{
-        height: 500px;
-        width: 500px;
+    .about2 .about2-content2 .left img{
+        height: 350px;
+        width: 350px;
+    }
+    .about3 .about3-content3 .left img{
+        height: 350px;
+        width: 350px;
     }
 }
-
 
 @media (max-width:991px){
     .max-width{
@@ -539,25 +509,35 @@ footer span a:hover{
     .about .about-content .column{
         width: 100%;
     }
-    .about .about-content .right{
-        justify-content:center;
-        margin-right: auto;
-        
-    }
     .about .about-content .left{
-        flex: 100%;
-    }
-
-    .about2 .about2-content2 .column{
-        width: 100%;
-    
-    }
-    .about2 .about2-content2 .right{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
+    .about .about-content .right{
+        flex: 100%;
+    }
+    .about2 .about2-content2 .column{
+        width: 100%;
+    }
     .about2 .about2-content2 .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about2 .about2-content2 .right{
+        flex: 100%;
+    }
+    sasa
+    .about3 .about3-content3 .column{
+        width: 100%;
+    }
+    .about3 .about3-content3 .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about3 .about3-content3 .right{
         flex: 100%;
     }
     .services .serv-content .card{
@@ -570,7 +550,7 @@ footer span a:hover{
         margin-bottom: 35px;
     }
     .social{
-        display: inline-block;
+        display: flex;
     }
     .social a{
         width: 45px;
@@ -599,17 +579,6 @@ footer span a:hover{
     .services .serv-content .card,
     .skills .skills-content .columns{
         width: 100%;       
-    }
-    .about .about-content .column{
-        width: 100%;
-    }
-    .about .about-content .right{
-        display: flex;
-        justify-content:baseline;
-        margin: 0 auto 60px;
-    }
-    .about .about-content .left{
-        flex: 100%;
     }
 }
 
