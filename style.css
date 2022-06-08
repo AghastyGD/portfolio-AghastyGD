@@ -325,9 +325,12 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+.skills .skills-content .forma{
+    margin-bottom: 10px;
+}
 .skills .skills-content .left .text2{
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 570;
     margin-bottom: 5px;
 }
 .skills .skills-content .left p{
@@ -372,28 +375,28 @@ section .title::after{
     content: "";
     position: absolute;
     height: 100%;
-    width: 50%;
+    /*width: 50%;*/
     left: 0;
     top: 0;
     background: crimson;
 }
 .skills-content .right .python::before{
-    width: 50%;
+    width: 35%;
 }
 .skills-content .right .html::before{
-    width: 50%;
+    width: 20%;
 }
 .skills-content .right .css::before{
-    width: 65%;
+    width: 20%;
 }
 .skills-content .right .js::before{
-    width: 50%;
+    width: 20%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 30%;
 }
 .skills-content .right .filmora::before{
-    width: 95%;
+    width: 85%;
 }
 .skills-content .right .blogger::before{
     width: 95%;
@@ -402,10 +405,10 @@ section .title::after{
     width: 70%;
 }
 .skills-content .right .photoshop::before{
-    width: 75%;
+    width: 80%;
 }
 .skills-content .right .effects::before{
-    width: 50%;
+    width: 80%;
 }
 
 /* contact section styling */
