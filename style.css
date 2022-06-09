@@ -381,7 +381,7 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .python::before{
-    width: 35%;
+    width: 23%;
 }
 .skills-content .right .html::before{
     width: 20%;
@@ -393,7 +393,7 @@ section .title::after{
     width: 20%;
 }
 .skills-content .right .mysql::before{
-    width: 30%;
+    width: 21%;
 }
 .skills-content .right .filmora::before{
     width: 85%;
@@ -402,7 +402,7 @@ section .title::after{
     width: 95%;
 }
 .skills-content .right .wordpress::before{
-    width: 70%;
+    width: 65%;
 }
 .skills-content .right .photoshop::before{
     width: 80%;
