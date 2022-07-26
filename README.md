@@ -1,4 +1,4 @@
-# My Portfolio
+# Meu Portfolio
 
-You are welcome to see my Portfolio and Enjoy it!
+Você é bem vindo para conferir o meu portfólio!
 https://augustodomingos.netlify.app/
