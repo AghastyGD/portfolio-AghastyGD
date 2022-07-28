@@ -142,12 +142,13 @@
 section{
     padding: 100px 0;
 }
-.about, .about2, .about3, .services, .skills, .contact, footer{
+.about, .about2, .about3, .about4, .services, .skills, .contact, footer{
     font-family: "Poppins", sans-serif;
 }
 .about .about-content,
 .about2 .about2-content2,
 .about3 .about3-content3,
+.about4 .about4-content4,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content{
@@ -388,6 +389,67 @@ section .title::after{
     background: none;
 }
 
+/* PROJETO 004 - COTAÇÃO */
+.about4 {
+    color: #fff;
+    background: #111;
+}
+.about4 .title::before{
+    background: #fff;
+}
+.about4 .title::after{
+    background: #111;
+    content: "projeto 004";
+}
+.about4 .about4-content4 .left{
+    width: 45%;
+}
+.about4 .about4-content4 .left img{
+    height: 350px;
+    width: 450px;
+    object-fit:fill;
+    border-radius: 10px;
+}
+.about4 .about4-content4 .right{
+    width: 55%;
+}
+.about4 .about4-content4 .right .text{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about4 .about4-content4 .right .p1{
+    color: white;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.about4 .about4-content4 .right h2{
+    color: white;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.about4 .about4-content4 .right .text2{
+    margin-top: 20px;
+}
+.about4 .about4-content4 .right .a1{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 36px;
+    margin-top: 20px;
+    margin-right: 89px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about4 .about4-content4 .right .a1:hover{
+    color: crimson;
+    background: none;
+}
 
 
 /* footer section styling */
@@ -451,6 +513,10 @@ footer span a:hover{
         width: 350px;
     }
     .about3 .about3-content3 .left img{
+        height: 350px;
+        width: 350px;
+    }
+    .about4 .about4-content4 .left img{
         height: 350px;
         width: 350px;
     }
@@ -528,7 +594,6 @@ footer span a:hover{
     .about2 .about2-content2 .right{
         flex: 100%;
     }
-    sasa
     .about3 .about3-content3 .column{
         width: 100%;
     }
@@ -538,6 +603,17 @@ footer span a:hover{
         margin: 0 auto 60px;
     }
     .about3 .about3-content3 .right{
+        flex: 100%;
+    }
+    .about4 .about4-content4 .column{
+        width: 100%;
+    }
+    .about4 .about4-content4 .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about4 .about4-content4 .right{
         flex: 100%;
     }
     .services .serv-content .card{
